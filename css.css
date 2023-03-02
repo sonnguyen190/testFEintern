@@ -1,0 +1,133 @@
+
+body{
+    margin: 0px;
+    font-family:Roboto;
+    font-weight: 400;
+}
+.all_page{
+    margin: 0px;
+    padding: 0px;
+}
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0px;
+  }
+.grid.wide {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.banner{
+    background-color: #EFEFEF;
+    padding: 50px 300px;
+    text-align: center;
+    border-radius: 2px;
+}
+.banner_1{
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.content{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.title_content{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.content_box{
+    padding: 10px 10px 10px 0px;
+    margin-bottom: 260px;
+    
+}
+.img_content{
+    width: 128px;
+    height: 128px;
+    padding: 5px 10px 10px 0px;
+    display: inline-block;
+}
+.text{  
+    font-family: "Roboto";
+}
+.contentall{
+    margin-top: 20px;
+}
+.footer{
+    width: 100%;
+    border-top: 1px solid #DEDEDE;
+    
+}
+.textfoot{
+    margin: 20px 20px 0px 100px;
+}
+.all_page{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.logo{
+    text-align: center;
+    margin: 20px;
+}
+.img_logo{
+    width: 310px;
+    height: 122px;
+}
+.navbar{
+    background-color: #191718;
+    margin: 0px;
+}
+.navbar ul .item{ 
+    list-style-type: none;
+    padding: 10px 20px;
+    color: #AAAAAA;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: #5C5C5C solid 1px;
+    cursor: pointer;
+}
+.navbar ul .item:hover{ 
+    list-style-type: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: #5C5C5C solid 1px;
+    cursor: pointer;
+    background-color: #5C5C5C;
+}
+.navbar ul { 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.Home{ 
+     list-style-type: none;
+    padding: 10px 20px;
+  
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: #5C5C5C solid 1px;
+    color: white;
+    cursor: pointer;
+
+}
+.subtitle{
+    font-size: 16px;
+}
+.content_box img {
+    float: left;
+}
+.box{
+    margin: 0px 20px;
+}
+@media only screen and (max-width: 1291px){
+    .content{
+        margin-top: 20px;
+        display: block;
+       
+    }
+}
